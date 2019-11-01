@@ -1,0 +1,22 @@
+{
+  "name": "",
+  "short_name": "",
+  "description": "",
+  "lang": "en-GB",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#c6c0b8",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/manifest.jpg",
+      "sizes": "1200x680",
+      "type": "image/jpeg"
+    }
+  ],
+  "background_color": "#ffffff"
+}
