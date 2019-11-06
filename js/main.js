@@ -72,3 +72,18 @@ document.addEventListener('DOMContentLoaded', function(){
     centerVertical: true
   });
 });
+
+// Kostas
+
+
+// Home Service Change Image on Hover
+jQuery(".homeserv-list a").hover(function() {
+	var s = jQuery(this).data("img");
+	jQuery(".homeserv-thumb img").attr("src", s);
+	console.log('Hover works')
+  });
+  // Home Service Change TEXT on Hover
+  function serviceText(description) {
+	console.log(description);
+	document.getElementById('serviceText').innerHTML = description;
+}
