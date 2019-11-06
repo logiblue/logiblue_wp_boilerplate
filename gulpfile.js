@@ -45,7 +45,7 @@ gulp.task('compile:sass', () =>
  
 gulp.task('watch:sass', ['compile:sass'], () => {
   bs.init({
-    proxy: 'http://localhost/stamps'
+    proxy: 'http://localhost/artware'
   });
   gulp.watch(SASS_SOURCES, ['compile:sass']);
   gulp.watch('**/*.php').on('change', function () { //this watch inspects the php files for changes 
