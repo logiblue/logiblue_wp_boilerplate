@@ -1,0 +1,70 @@
+
+.xx-slideright.hdn{
+	transform:translateX(-80px);
+	transition:all .8s;
+}
+
+.xx-slideright.vsb{
+	transform:translateX(0);
+	transition:all .8s;
+}
+
+.xx-slideleft.hdn{
+	transform:translateX(80px);
+	transition:all .8s;
+}
+
+.xx-slideleft.vsb{
+	transform:translateX(0);
+	transition:all .8s;
+}
+
+.xx-slidetop.hdn{
+	transform:translateY(-80px);
+	transition:all .8s;
+}
+
+.xx-slidetop.vsb{
+	transform:translateY(0);
+	transition:all .8s;
+}
+
+.xx-slidebottom.hdn{
+	transform:translateY(80px);
+	transition:all .8s;
+}
+
+.xx-slidebottom.vsb{
+	transform:translateY(0);
+	transition:all .8s;
+}
+
+.xx-fadein.hdn{
+	opacity:0;
+	transition:all .8s;
+}
+
+.xx-fadein.vsb{
+	opacity:1;
+	transition:all .8s;
+}
+
+.xx-delaysm{
+	transition-delay:.2s!important;
+}
+
+.xx-delaymd{
+	transition-delay:.3s!important;
+}
+
+.xx-delaylg{
+	transition-delay:.4s!important;
+}
+
+.xx-delayxl{
+	transition-delay:.5s!important;
+}
+
+.xx-delayxxl{
+	transition-delay:.6s!important;
+}

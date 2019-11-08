@@ -1,3 +1,5 @@
+//imports
+
 const gulp = require('gulp');
 const plumber = require('gulp-plumber');
 const sass = require('gulp-sass');
@@ -11,7 +13,7 @@ const bs = require('browser-sync');
 
 const SASS_SOURCES = [
   './*.scss', // This picks up our style.scss file at the root of the theme
-  'sass/**/*.scss', // All other Sass files in the /css directory,
+  './sass/**/*.scss', // All other Sass files in the /css directory,
 ];
 
 
@@ -45,7 +47,7 @@ gulp.task('compile:sass', () =>
  
 gulp.task('watch:sass', ['compile:sass'], () => {
   bs.init({
-    proxy: 'http://localhost/artware'
+    proxy: 'http://localhost/atw'
   });
   gulp.watch(SASS_SOURCES, ['compile:sass']);
   gulp.watch('**/*.php').on('change', function () { //this watch inspects the php files for changes 

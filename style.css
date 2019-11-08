@@ -332,13 +332,19 @@ footer{
 }
 .homeserv-left ul li a:hover{
 
-	color:rgb(110, 110, 110);
+	color:rgb(206, 235, 210);
 }
 .homeserv-right{
 	width:50%;
 	display:flex;
 	align-items:center;
+	position: relative;
 }
 .homeserv-serviceText{
 	transform: rotate(90deg);
+	font-size:30px;
+	position: absolute;
+	top:50%;
+	right: 0;
+
 }

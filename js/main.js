@@ -87,3 +87,18 @@ jQuery(".homeserv-list a").hover(function() {
 	console.log(description);
 	document.getElementById('serviceText').innerHTML = description;
 }
+
+//Change background-color on Hover
+jQuery('.homeserv').on('mouseover', 'a', function () {
+
+    var background = "url('" + jQuery(this).attr('data-bg') + "')";
+
+    jQuery('.homeserv').css('background-color', background)
+});
+
+
+jQuery("a").on("mouseover",function(){
+
+	jQuery('.homeserv').css("background-color",jQuery(this).attr("data-bg"));
+  
+  });
