@@ -36,6 +36,7 @@ Text Domain: act-theme
 
 /*** BASIC ***/
 :root{
+    --test-color:#e1890d;
 	--main-color: #13119d;
 	--header-height:100px;
 	--links-hover:#333;
@@ -301,50 +302,7 @@ footer{
 	.vc_row-no-padding {position:static !important;}
 }
 
-
-
-
-/* STYLES BELLOW */
-
-
-
-/* _______HOMEPAGE STYLES */
-
-
-/* SECTION HOME SERVICES */
-.homeserv{
-	background-color: bisque;
-	width: 100%;
-	height: 90vh;
-	display: flex;
-}
-.homeserv-left{
-	width:50%;
-	display: flex;
-	align-items: center;;
-}
-.homeserv-left ul li{
-	margin-bottom:40px;
-}
-.homeserv-left ul li a{
-	font-size:50px;
-	color:white;
-}
-.homeserv-left ul li a:hover{
-
-	color:rgb(206, 235, 210);
-}
-.homeserv-right{
-	width:50%;
-	display:flex;
-	align-items:center;
-	position: relative;
-}
-.homeserv-serviceText{
-	transform: rotate(90deg);
-	font-size:30px;
-	position: absolute;
-	top:50%;
-	right: 0;
-
+// This is just a test for gulp ~ Please Delete After k.
+body{
+	background-color:green;;
 }

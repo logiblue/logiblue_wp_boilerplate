@@ -1,7 +1,7 @@
 {
-  "name": "artware",
+  "name": "artware_wp_theme",
   "version": "1.0.0",
-  "description": "This is the package for artware.gr",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,19 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/logiblue/artware_wp_theme.git"
   },
-  "author": "kostas @ ArtWare",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/logiblue/artware_wp_theme/issues"
   },
   "homepage": "https://github.com/logiblue/artware_wp_theme#readme",
   "devDependencies": {
-    "autoprefixer": "^9.7.1",
     "browser-sync": "^2.26.7",
-    "gulp": "^4.0.2",
-    "gulp-group-css-media-queries": "^1.2.2",
-    "gulp-plumber": "^1.2.1",
-    "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
   }
 }
