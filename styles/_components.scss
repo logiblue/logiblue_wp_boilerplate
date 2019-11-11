@@ -1,0 +1,44 @@
+
+/*** CONTENT ***/
+.clr {
+    clear: both; }
+  
+  .hidden {
+    display: none; }
+  
+  #main-content {
+    width: 100%;
+    margin: 0 auto; }
+  
+
+
+
+    
+/*** SCROLL TO TOP ***/
+  .scrollToTop {
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    z-index: 999999999;
+    height: 45px;
+    display: none;
+    width: 45px; }
+  
+  .scrollToTop::after {
+    content: '\f106';
+    position: absolute;
+    font-family: fontawesome;
+    color: #fff;
+    height: 45px;
+    width: 45px;
+    background-color: #ccc;
+    line-height: 45px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all .5s; }
+  
+  .ft-inner {
+    width: 100%;
+    max-width: var(--site-width);
+    margin: 0 auto; }
