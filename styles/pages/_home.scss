@@ -87,7 +87,6 @@
 #trustedby{
     width: 100%;
     height: 80vh;
-    background-color: darksalmon;
     .trustedby{
         width: 100%;
         display: flex;
@@ -96,6 +95,8 @@
         &__tit{
             width: 100%;
             text-align: center;
+            font-size: 50px;
+            padding: 70px 0;
         }
         &__grid{
             display: flex;

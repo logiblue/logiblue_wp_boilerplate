@@ -59,7 +59,16 @@
         </div>
         <div class="trustedby__grid">
             <div class="trustedby__grid--item">
+                <img src="http://localhost/artware/wp-content/uploads/2019/11/smirdex-logo-211x48.svg" alt="logo">
+            </div>
+            <div class="trustedby__grid--item">
                 <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
+            </div>
+            <div class="trustedby__grid--item">
+                <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
+            </div>
+            <div class="trustedby__grid--item">
+                <img src="http://localhost/artware/wp-content/uploads/2019/11/smirdex-logo-211x48.svg" alt="logo">
             </div>
             <div class="trustedby__grid--item">
                 <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
@@ -70,18 +79,7 @@
             <div class="trustedby__grid--item">
                 <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
             </div>
-            <div class="trustedby__grid--item">
-                <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
-            </div>
-            <div class="trustedby__grid--item">
-                <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
-            </div>
-            <div class="trustedby__grid--item">
-                <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
-            </div>
-            <div class="trustedby__grid--item">
-                <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
-            </div>
+ 
             <div class="trustedby__grid--item">
                 <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
             </div>

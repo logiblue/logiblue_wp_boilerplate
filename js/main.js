@@ -75,35 +75,3 @@ document.addEventListener('DOMContentLoaded', function(){
 
 
 
-//   -----------------------------------------------------
-
-
-
-// jQuery(".theserv__list-item a").hover(function() {
-// 	jQuery
-
-// 	console.log('Check me')
-// 	var s = jQuery(this).data("img");
-// 	jQuery(".homeserv-thumb img").attr("src", s);
-//   });
-
-
-//   jQuery(".theserv__list-item a").hover(function() {
-// 	jQuery('.theserv__list-item a').removeClass('active-slide');
-// 	var background = "url('" + jQuery(this).attr('data-bg') + "')";
-
-// 	if ($(this).hasClass('active-slide'))
-// 	 jQuery('#theserv').css('background', (background));
-
-// else
-	
-
-
-//   });
-
-
-  
-jQuery(".theserv-list a").hover(function() {
-	var s = jQuery(this).data("img");
-	jQuery("#theserv").css("background", 'url' + s);
-  });

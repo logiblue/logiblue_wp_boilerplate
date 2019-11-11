@@ -326,8 +326,7 @@ strong {
 
 #trustedby {
   width: 100%;
-  height: 80vh;
-  background-color: darksalmon; }
+  height: 80vh; }
   #trustedby .trustedby {
     width: 100%;
     display: flex;
@@ -335,7 +334,9 @@ strong {
     justify-content: center; }
     #trustedby .trustedby__tit {
       width: 100%;
-      text-align: center; }
+      text-align: center;
+      font-size: 50px;
+      padding: 70px 0; }
     #trustedby .trustedby__grid {
       display: flex;
       flex-direction: row;
