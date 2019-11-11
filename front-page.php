@@ -37,34 +37,60 @@
     <div class="team-photo"></div>
 </section>
 
-<section id="homeserv">
-    <div class="homeserv">
-         <div class="homeserv__head">
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora accusamus velit facilis soluta maxime enim voluptatem sunt rem cupiditate labore eius nesciunt odio hic repellendus, beatae earum laudantium. Vitae, quos.
-         </div>
-            <div class="homeserv-left">
-            <ul class="homeserv-list">
-            <li><a href="#" class="homeserv-listItem" onmouseover="serviceText('Apples are delicious')"  data-bg="red" data-img="http://localhost/artware/wp-content/uploads/2019/11/invictus-tailoring-sneaker-socks-yFU-bfUTEtU-unsplash.jpg">Branding</a></li>
-            <li><a href="#" class="homeserv-listItem" onmouseover="serviceText('Oranges are delicious')"  data-bg="blue" data-img="http://localhost/artware/wp-content/uploads/2019/11/markus-spiske-eo3Xr2yhYVw-unsplash.jpg">Packaging</a></li>
-            <li><a href="#" class="homeserv-listItem" onmouseover="serviceText('Bananas are delicious')"  data-bg="#00BFB2" data-img="http://localhost/artware/wp-content/uploads/2019/11/alexander-dummer-aS4Duj2j7r4-unsplash.jpg">Web Design</a></li>
-            <li><a href="#" class="homeserv-listItem" onmouseover="serviceText('Grapefruits are delicious')" data-bg="#C64191"  data-img="http://localhost/artware/wp-content/uploads/2019/11/hubble-FNfgJvcMfHQ-unsplash.jpg">Photography</a></li>
-            <li><a href="#" class="homeserv-listItem" onmouseover="serviceText('Watermelons are delicious')" data-bg="#A4303F"  data-img="http://localhost/artware/wp-content/uploads/2019/11/henry-co-It1LgT8CM4w-unsplash.jpg">Websites</a></li>
-            </ul>
-            </div>
+<section id="theserv">
+    <div class="theserv">
+        <ul class="theserv__list">
 
-            <div class="homeserv-right">
-                <div class="homeserv-thumb">
-                    <img src="http://localhost/artware/wp-content/uploads/2019/11/davisco-5E5N49RWtbA-unsplash.jpg" alt="ARTWARE">
-                </div>
-                <div class="homeserv-serviceText" id="serviceText">Hover @ list </div>
-            </div>
-            </div>
+        <li class="theserv__list-item active-slide acive-slide-1" data-bg="#e1800d" data-img="http://localhost/artware/wp-content/uploads/2019/11/invictus-tailoring-sneaker-socks-yFU-bfUTEtU-unsplash.jpg"><a href="#">Branding</a></li>
+        <li class="theserv__list-item active-slide-2" data-bg="#e44334" ><a href="#" data-img="http://localhost/artware/wp-content/uploads/2019/11/markus-spiske-eo3Xr2yhYVw-unsplash.jpg">Photography</a></li>
+        <li class="theserv__list-item active-slide-3" data-bg="#e909"><a href="#">Websites</a></li>
+        <li class="theserv__list-item active-slide-4" data-bg="#c1c5"><a href="#">Design</a></li>
 
-         <div class="ourserv__cta">
-    
+        </ul>
     </div>
 </section>
 
 
+<section id="trustedby">
+
+    <div class="trustedby">
+        <div class="trustedby__tit">
+            Proud to be trusted by
+        </div>
+        <div class="trustedby__grid">
+            <div class="trustedby__grid--item">
+                <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
+            </div>
+            <div class="trustedby__grid--item">
+                <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
+            </div>
+            <div class="trustedby__grid--item">
+                <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
+            </div>
+            <div class="trustedby__grid--item">
+                <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
+            </div>
+            <div class="trustedby__grid--item">
+                <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
+            </div>
+            <div class="trustedby__grid--item">
+                <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
+            </div>
+            <div class="trustedby__grid--item">
+                <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
+            </div>
+            <div class="trustedby__grid--item">
+                <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
+            </div>
+            <div class="trustedby__grid--item">
+                <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
+            </div>
+            <div class="trustedby__grid--item">
+                <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
+            </div>
+        </div>
+    </div>
+
+</section>
 
 <?php get_footer(); ?>

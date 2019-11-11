@@ -73,68 +73,37 @@ document.addEventListener('DOMContentLoaded', function(){
   });
 });
 
-// Kostas
-
-
-// Home Service Change Image on Hover
-jQuery(".homeserv-list a").hover(function() {
-	var s = jQuery(this).data("img");
-	jQuery(".homeserv-thumb img").attr("src", s);
-  });
-
-  // Home Service Change TEXT on Hover
-  function serviceText(description) {
-	console.log(description);
-	document.getElementById('serviceText').innerHTML = description;
-}
-
-//Change background-color on Hover
-jQuery('.homeserv').on('mouseover', 'a', function () {
-
-    var background = "url('" + jQuery(this).attr('data-bg') + "')";
-
-    jQuery('.homeserv').css('background-color', background)
-});
-
-
-jQuery("a").on("mouseover",function(){
-
-	jQuery('.homeserv').css("background-color",jQuery(this).attr("data-bg"));
-  
-  });
-
-
-
-
-
-
-
 
 
 //   -----------------------------------------------------
 
 
 
+// jQuery(".theserv__list-item a").hover(function() {
+// 	jQuery
 
-toggleSlide = function() {
-    var active = jQuery("#slider ul li.active");
-    var next   = active.next();
-    if (next.length === 0) {
-        next = jQuery('#slider ul li:first');
-    }
-    
-    active.removeClass('active');
-    next.addClass('active');
-}
-setInterval(toggleSlide, 1000);
+// 	console.log('Check me')
+// 	var s = jQuery(this).data("img");
+// 	jQuery(".homeserv-thumb img").attr("src", s);
+//   });
 
 
+//   jQuery(".theserv__list-item a").hover(function() {
+// 	jQuery('.theserv__list-item a').removeClass('active-slide');
+// 	var background = "url('" + jQuery(this).attr('data-bg') + "')";
 
-jQuery('#slider ul li').hover(
-	function () {
-	  clearInterval(timer)
-	},
-	function () {
-	  timer = setInterval( toggleSlide, 5000);
-	}
-  );
+// 	if ($(this).hasClass('active-slide'))
+// 	 jQuery('#theserv').css('background', (background));
+
+// else
+	
+
+
+//   });
+
+
+  
+jQuery(".theserv-list a").hover(function() {
+	var s = jQuery(this).data("img");
+	jQuery("#theserv").css("background", 'url' + s);
+  });
