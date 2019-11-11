@@ -60,24 +60,22 @@
 </div>
 -->
 
-<div class="header-bot">
-
-	<div id="logo" itemscope>
-		<a href="<?php bloginfo('url'); ?>"><img src="" srcset="logo.png 1x, logo@2x.png 2x" alt="<?php echo bloginfo('name'); ?>" width="" height="" /></a>
+<div class="header">
+	<div class="header-logo">
+		<a href="<?php bloginfo('url'); ?>"><img src='http://localhost/artware/wp-content/uploads/2019/11/Artware-logo@4x.png' alt="<?php echo bloginfo('name'); ?>" width="" height="" /></a>
 	</div>
-
-	<nav>
-		<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
-	</nav>
-
-	<!--
-	<div class="header-widget">
-		<ul>
-			<?php dynamic_sidebar( 'sidebar-7' ); ?>
-		</ul>
+	<div class="header-navigation">
+		<nav>
+			<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
+		</nav>
 	</div>
-	-->
-
+	<div class="header-lang">
+		<p class=delete-test-p>EN / GR</p>
+		<!-- <?php dynamic_sidebar( 'sidebar-7' ); ?> -->
+	</div>
+	<div class="header-btn">
+		GET STARTED
+	</div>
 </div>
-
+	
 </header>

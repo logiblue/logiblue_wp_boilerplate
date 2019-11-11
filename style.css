@@ -230,3 +230,36 @@ strong {
   width: 100%;
   max-width: var(--site-width);
   margin: 0 auto; }
+
+.header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  border-bottom: 1px solid #eee; }
+  .header-logo {
+    width: 10%; }
+    .header-logo img {
+      height: 20px; }
+  .header-navigation {
+    width: 70%;
+    display: flex;
+    justify-content: center; }
+    .header-navigation nav ul {
+      display: flex; }
+      .header-navigation nav ul li:not(:first-child) {
+        margin-left: 30px; }
+  .header-lang {
+    display: flex;
+    justify-content: center;
+    width: 10%; }
+  .header-btn {
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+    width: 10%;
+    border: 1px solid #000; }
+
+.delete-test-p {
+  padding: 0; }

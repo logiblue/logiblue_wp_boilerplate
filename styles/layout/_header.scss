@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    width: 100%;;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-bottom: 1px solid #eee;;
+
+    &-logo{
+        width: 10%;
+        img{
+            height: 20px;;
+        }
+    }
+    &-navigation{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        & nav ul {
+            display:flex;
+
+            & li:not(:first-child){
+                margin-left: 30px;;
+            }
+        }
+    }
+    &-lang{
+        display: flex;
+        justify-content: center;
+    width: 10%;;
+    }
+    &-btn{
+        display: flex;
+        justify-content: center;
+        padding: 14px;;
+    width: 10%;
+    border: 1px solid #000;
+    }
+}
+
+.delete-test-p{
+    padding: 0;
+}

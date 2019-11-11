@@ -180,6 +180,9 @@ add_action( 'init', 'register_my_menu' );
 function load_scripts() {
   wp_enqueue_script( 'custom-script', get_template_directory_uri() . '/js/main.js', array( 'jquery' ) );
   wp_enqueue_script( 'custom-script2', 'https://cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.9/jquery.transit.min.js', array() );
+  wp_enqueue_script( 'tweenmax', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js', array() );
+  wp_enqueue_script( 'timeline', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineLite.min.js');
+
 }
 add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
