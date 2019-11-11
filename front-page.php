@@ -37,7 +37,7 @@
     <div class="team-photo"></div>
 </section>
 
-<section id="theserv">
+<!-- <section id="theserv">
     <div class="theserv">
         <ul class="theserv__list">
 
@@ -48,7 +48,28 @@
 
         </ul>
     </div>
-</section>
+</section> -->
+
+
+<div id="quickslider">
+<div class="quickslider">
+    <img class="slide" id="1" src="https://www.freewebheaders.com/wp-content/gallery/high-tech-hero-headers/high-technology-blue-abstract-art-full-screen-header.jpg" alt="placeholder image">
+    <img class="slide" id="2" src="https://i.imgur.com/5ylZG2o.jpg" alt="placeholder image">
+    <img class="slide" id="3" src="https://picsum.photos/1920/1080" alt="placeholder image">
+    <img class="slide" id="4" src="https://picsum.photos/1920/1080" alt="placeholder image">
+    <img class="slide" id="5" src="https://picsum.photos/1920/1080" alt="placeholder image">
+</div><!--quickslider-->
+
+<nav class="slider-nav">
+
+        <a href="#1" class="active">Branding</a>
+        <a href="#2" >Packaging</a>
+        <a href="#3" >Web Design</a>
+        <a href="#4" >Web Development</a>
+        <a href="#5" >Photography</a>
+
+</nav>
+        </div>
 
 
 <section id="trustedby">
