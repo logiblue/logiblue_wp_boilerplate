@@ -80,8 +80,8 @@ document.addEventListener('DOMContentLoaded', function(){
 jQuery(".homeserv-list a").hover(function() {
 	var s = jQuery(this).data("img");
 	jQuery(".homeserv-thumb img").attr("src", s);
-	console.log('Hover works')
   });
+
   // Home Service Change TEXT on Hover
   function serviceText(description) {
 	console.log(description);
@@ -102,3 +102,39 @@ jQuery("a").on("mouseover",function(){
 	jQuery('.homeserv').css("background-color",jQuery(this).attr("data-bg"));
   
   });
+
+
+
+
+
+
+
+
+
+//   -----------------------------------------------------
+
+
+
+
+toggleSlide = function() {
+    var active = jQuery("#slider ul li.active");
+    var next   = active.next();
+    if (next.length === 0) {
+        next = jQuery('#slider ul li:first');
+    }
+    
+    active.removeClass('active');
+    next.addClass('active');
+}
+setInterval(toggleSlide, 1000);
+
+
+
+jQuery('#slider ul li').hover(
+	function () {
+	  clearInterval(timer)
+	},
+	function () {
+	  timer = setInterval( toggleSlide, 5000);
+	}
+  );

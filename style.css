@@ -263,3 +263,69 @@ strong {
 
 .delete-test-p {
   padding: 0; }
+
+.hero {
+  width: 100%;
+  height: 70vh;
+  background-color: lightskyblue;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px; }
+
+#awa {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0; }
+  #awa .awa {
+    width: 900px;
+    text-align: center; }
+    #awa .awa-top {
+      font-size: 20px; }
+    #awa .awa-main {
+      font-size: 55px; }
+    #awa .awa-text {
+      padding: 50px; }
+    #awa .awa-btn {
+      display: flex;
+      justify-content: center;
+      text-decoration: underline;
+      color: #000; }
+      #awa .awa-btn a {
+        color: #000;
+        font-size: 20px; }
+      #awa .awa-btn--1 {
+        padding: 20px 60px; }
+      #awa .awa-btn--2 {
+        padding: 20px 60px; }
+
+#team .team-photo {
+  width: 100%;
+  height: 80vh;
+  background-image: url("http://localhost/artware/wp-content/uploads/2019/11/note_family_2018.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.active {
+  color: red; }
+
+.homeserv {
+  width: 100%; }
+
+.homeserv-left {
+  position: absolute; }
+
+.homeserv-list {
+  font-size: 30px;
+  padding: 200px; }
+
+.homeserv-listItem {
+  margin-bottom: 50px; }
+
+.homeserv-right {
+  width: 100%;
+  height: 70vh; }
