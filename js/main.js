@@ -1,4 +1,7 @@
 // SHRINK HEADER WHEN SCROLL
+
+
+
 jQuery(function(){
  var shrinkHeader = 300;
   jQuery(window).scroll(function() {
@@ -74,28 +77,115 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 
 
-// Quick Service Slider
-var sliderint= 1;
-var sliderNext = 2;
-var loop;
+// // Quick Service Slider
+// var sliderint= 1;
+// var sliderNext = 2;
+// var loop;
+
+// jQuery(document).ready(function(){
+    
+// })
+
+// function startSlider (){
+//   count=jQuery(".quickslider>img").size(); 
+// 	console.log("Start Loop");
+  
+//   window.clearTimeout(loop);
+//     loop = window.setTimeout(function(){
+
+//         if(sliderNext>count){
+//             sliderNext=1;
+//             sliderint=1;
+//         }
+// 				showSlide(sliderNext);
+//     },6000);
+// }
+
+// function prev(){
+//     newSlide = sliderint-1;
+//     showSlide(newSlide);
+
+// }
+
+// function next(){
+//     newSlide = sliderint+1;
+//     showSlide(newSlide);   
+// }
+
+// function stopLoop(){
+//   console.log("Stop Loop");
+//     window.clearTimeout(loop);
+// }
+
+
+// function showSlide(id){
+//     stopLoop();
+//   jQuery(".slider-nav a").removeClass("active");
+   
+//   if(id>count){
+//             id=1;
+//     }
+//     else if(id<1){
+//           id=count;  
+//         }
+
+//         jQuery('.quickslider>img').fadeOut(300);
+//         jQuery('.quickslider>img#'+id).fadeIn(300);
+// jQuery(".slider-nav a[href='#"+id+"']").addClass("active");
+//         sliderint=parseInt(id);
+//         sliderNext= parseInt(id) + 1;
+//         startSlider();   
+// }
+
+
+// jQuery(document).ready(function(){
+//   jQuery('.quickslider>img#1').fadeIn(300);
+//     startSlider();
+  
+//   jQuery('body').on('mouseover', ".slider-nav a", function(e){
+//     e.preventDefault();
+//     var href = jQuery(e.target).attr("href");
+// 	stopLoop ();
+//     showSlide(href.substring(1, href.length));
+//   });
+  
+//   jQuery("#quickslider").hover(function ()
+//     {
+//        stopLoop ();
+//     },
+//     function () {
+//         startSlider ();
+//     });
+// });
+
+
+
+// var tl = new TimelineMax({repeat:20});
+
+// jQuery(".slide").each(function(index, element){
+//   tl.to(element, 1, {x:200, opacity:1})
+//     .to(element, 1, {x:400, opacity:0, ease:Power2.easeIn}, "+=1")
+// })
+
+sliderint= 1;
+sliderNext = 2;
 
 jQuery(document).ready(function(){
-    
+    jQuery('.quickslider>img#1').fadeIn(300);
+    startSlider();
 })
 
 function startSlider (){
-  count=jQuery(".quickslider>img").size(); 
-	console.log("Start Loop");
-  
-  window.clearTimeout(loop);
-    loop = window.setTimeout(function(){
+    count=jQuery(".quickslider>img").size(); 
+
+    loop = setInterval(function(){
 
         if(sliderNext>count){
             sliderNext=1;
             sliderint=1;
         }
 				showSlide(sliderNext);
-    },6000);
+    },5000)
 }
 
 function prev(){
@@ -110,8 +200,7 @@ function next(){
 }
 
 function stopLoop(){
-  console.log("Stop Loop");
-    window.clearTimeout(loop);
+    window.clearInterval(loop);
 }
 
 
@@ -129,37 +218,70 @@ function showSlide(id){
         jQuery('.quickslider>img').fadeOut(300);
         jQuery('.quickslider>img#'+id).fadeIn(300);
 jQuery(".slider-nav a[href='#"+id+"']").addClass("active");
-        sliderint=parseInt(id);
-        sliderNext= parseInt(id) + 1;
+        sliderint=id;
+        sliderNext=id + 1;
         startSlider();   
 }
 
 
 jQuery(document).ready(function(){
-  jQuery('.quickslider>img#1').fadeIn(300);
-    startSlider();
-  
   jQuery('body').on('mouseover', ".slider-nav a", function(e){
     e.preventDefault();
     var href = jQuery(e.target).attr("href");
-	stopLoop ();
+    
     showSlide(href.substring(1, href.length));
   });
   
-  jQuery("#quickslider").hover(function ()
+jQuery(".quickslider > img").hover(
+    function ()
     {
        stopLoop ();
     },
     function () {
         startSlider ();
-    });
+    }
+ );
 });
 
+//OWL CAROUSEL HOMEPAGE
 
 
-var tl = new TimelineMax({repeat:20});
-
-$(".slide").each(function(index, element){
-  tl.to(element, 1, {x:200, opacity:1})
-    .to(element, 1, {x:400, opacity:0, ease:Power2.easeIn}, "+=1")
+jQuery('.owl-carousel').owlCarousel({
+  stagePadding: 200,
+  loop:true,
+  margin:10,
+  nav:false,
+  items:1,
+  lazyLoad: true,
+  nav:true,
+responsive:{
+      0:{
+          items:1,
+          stagePadding: 60
+      },
+      600:{
+          items:1,
+          stagePadding: 100
+      },
+      1000:{
+          items:1,
+          stagePadding: 200
+      },
+      1200:{
+          items:1,
+          stagePadding: 250
+      },
+      1400:{
+          items:1,
+          stagePadding: 300
+      },
+      1600:{
+          items:1,
+          stagePadding: 350
+      },
+      1800:{
+          items:1,
+          stagePadding: 400
+      }
+  }
 })

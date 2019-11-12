@@ -29,7 +29,6 @@
             <div class="awa-btn--2"><a href="#">About us</a></div>
 
         </div>
-
     </div>
 </section>
 
@@ -37,79 +36,98 @@
     <div class="team-photo"></div>
 </section>
 
-<!-- <section id="theserv">
-    <div class="theserv">
-        <ul class="theserv__list">
-
-        <li class="theserv__list-item active-slide acive-slide-1" data-bg="#e1800d" data-img="http://localhost/artware/wp-content/uploads/2019/11/invictus-tailoring-sneaker-socks-yFU-bfUTEtU-unsplash.jpg"><a href="#">Branding</a></li>
-        <li class="theserv__list-item active-slide-2" data-bg="#e44334" ><a href="#" data-img="http://localhost/artware/wp-content/uploads/2019/11/markus-spiske-eo3Xr2yhYVw-unsplash.jpg">Photography</a></li>
-        <li class="theserv__list-item active-slide-3" data-bg="#e909"><a href="#">Websites</a></li>
-        <li class="theserv__list-item active-slide-4" data-bg="#c1c5"><a href="#">Design</a></li>
-
-        </ul>
-    </div>
-</section> -->
-
-
-<div id="quickslider">
+<section id="quickslider">
 <div class="quickslider">
-    <img class="slide" id="1" src="https://www.freewebheaders.com/wp-content/gallery/high-tech-hero-headers/high-technology-blue-abstract-art-full-screen-header.jpg" alt="placeholder image">
-    <img class="slide" id="2" src="https://i.imgur.com/5ylZG2o.jpg" alt="placeholder image">
-    <img class="slide" id="3" src="https://picsum.photos/1920/1080" alt="placeholder image">
-    <img class="slide" id="4" src="https://picsum.photos/1920/1080" alt="placeholder image">
-    <img class="slide" id="5" src="https://picsum.photos/1920/1080" alt="placeholder image">
+    <img class="slide" id="1" src="http://localhost/artware/wp-content/uploads/2019/11/slider-1.jpg" alt="placeholder image">
+    <img class="slide" id="2" src="http://localhost/artware/wp-content/uploads/2019/11/slider-2.jpg" alt="placeholder image">
+    <img class="slide" id="3" src="http://localhost/artware/wp-content/uploads/2019/11/slider-3.jpg" alt="placeholder image">
+    <img class="slide" id="4" src="https://picsum.photos/1920/600" alt="placeholder image">
+    <img class="slide" id="5" src="https://picsum.photos/1920/600" alt="placeholder image">
 </div><!--quickslider-->
 
 <nav class="slider-nav">
-
-        <a href="#1" class="active">Branding</a>
-        <a href="#2" >Packaging</a>
-        <a href="#3" >Web Design</a>
-        <a href="#4" >Web Development</a>
-        <a href="#5" >Photography</a>
-
+    <a href="#1" class="active">Branding</a>
+    <a href="#2" >Packaging</a>
+    <a href="#3" >Wed Design</a>
+    <a href="#4" >Web Development</a>
+    <a href="#5" >Photograpphy</a>
 </nav>
-        </div>
+</section>
+
+<section id="trusted">
+<div class="trusted__container">
+<div class="trusted__head">
+    proud to be trusted by
+</div>
+<div class="trusted__grid">
+    <div class="trusted__grid-item"><img src="https://cdn.freebiesupply.com/logos/large/2x/bosch-938-logo-png-transparent.png" alt="BOSCH"></div>
+    <div class="trusted__grid-item"><img src="https://cdn.freebiesupply.com/logos/large/2x/bosch-938-logo-png-transparent.png" alt="BOSCH"></div>
+    <div class="trusted__grid-item"><img src="https://cdn.freebiesupply.com/logos/large/2x/bosch-938-logo-png-transparent.png" alt="BOSCH"></div>
+    <div class="trusted__grid-item"><img src="https://cdn.freebiesupply.com/logos/large/2x/bosch-938-logo-png-transparent.png" alt="BOSCH"></div>
+    <div class="trusted__grid-item"><img src="https://cdn.freebiesupply.com/logos/large/2x/bosch-938-logo-png-transparent.png" alt="BOSCH"></div>
+    <div class="trusted__grid-item"><img src="https://cdn.freebiesupply.com/logos/large/2x/bosch-938-logo-png-transparent.png" alt="BOSCH"></div>
+    <div class="trusted__grid-item"><img src="https://cdn.freebiesupply.com/logos/large/2x/bosch-938-logo-png-transparent.png" alt="BOSCH"></div>
+    <div class="trusted__grid-item"><img src="https://cdn.freebiesupply.com/logos/large/2x/bosch-938-logo-png-transparent.png" alt="BOSCH"></div>
+    <div class="trusted__grid-item"><img src="https://cdn.freebiesupply.com/logos/large/2x/bosch-938-logo-png-transparent.png" alt="BOSCH"></div>
+    <div class="trusted__grid-item"><img src="https://cdn.freebiesupply.com/logos/large/2x/bosch-938-logo-png-transparent.png" alt="BOSCH"></div>
+
+</div>
+</div>
+</section>
 
 
-<section id="trustedby">
+<section id="ourworkz">
 
-    <div class="trustedby">
-        <div class="trustedby__tit">
-            Proud to be trusted by
-        </div>
-        <div class="trustedby__grid">
-            <div class="trustedby__grid--item">
-                <img src="http://localhost/artware/wp-content/uploads/2019/11/smirdex-logo-211x48.svg" alt="logo">
-            </div>
-            <div class="trustedby__grid--item">
-                <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
-            </div>
-            <div class="trustedby__grid--item">
-                <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
-            </div>
-            <div class="trustedby__grid--item">
-                <img src="http://localhost/artware/wp-content/uploads/2019/11/smirdex-logo-211x48.svg" alt="logo">
-            </div>
-            <div class="trustedby__grid--item">
-                <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
-            </div>
-            <div class="trustedby__grid--item">
-                <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
-            </div>
-            <div class="trustedby__grid--item">
-                <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
-            </div>
- 
-            <div class="trustedby__grid--item">
-                <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
-            </div>
-            <div class="trustedby__grid--item">
-                <img src="http://localhost/artware/wp-content/uploads/2019/11/kisspng-daimler-ag-logo-mercedes-benz-mexico-daimler-india-automobilbau-aut-tech-group-5b6e8449d21c58.3896779315339694818606-1.png" alt="logo">
-            </div>
-        </div>
-    </div>
-
+<div class="owl-carousel">
+    <div class="item">
+      <a href="#">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/slider_bags.jpg" alt="" />
+      <div class="inner">
+        <a href="#">The Erling Bag</a>
+      </div>
+      </a>
+  </div>
+      <div class="item black">
+      <a href="#">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/slider_book_cover.jpg" alt="" />
+      <div class="inner">
+        <a href="#">Summer Book Series</a>
+      </div>
+      </a>
+  </div>
+      <div class="item">
+      <a href="#">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/slider_bags.jpg" alt="" />
+      <div class="inner">
+        <a href="#">The Erling Bag</a>
+      </div>
+      </a>
+  </div>
+      <div class="item black">
+      <a href="#">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/slider_book_cover.jpg" alt="" />
+      <div class="inner">
+        <a href="#">Summer Book Series</a>
+      </div>
+      </a>
+  </div>
+      <div class="item">
+      <a href="#">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/slider_bags.jpg" alt="" />
+      <div class="inner">
+        <a href="#">The Erling Bag</a>
+      </div>
+      </a>
+  </div>
+   <div class="item black">
+      <a href="#">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/slider_book_cover.jpg" alt="" />
+      <div class="inner">
+        <a href="#">Summer Book Series</a>
+      </div>
+      </a>
+  </div>
+</div>
 </section>
 
 <?php get_footer(); ?>
