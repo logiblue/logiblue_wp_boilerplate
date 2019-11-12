@@ -188,6 +188,7 @@
   .inner{
     position: relative;
     display: flex;
+    padding-top: 10px;
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
@@ -208,7 +209,11 @@
       &-right{
           text-align: right;
         }
-      &_tit{}
+      &-tit{
+          color: #000;
+          font-weight: bold;
+          font-size:20px;
+      }
       &-cat{}
     
     }

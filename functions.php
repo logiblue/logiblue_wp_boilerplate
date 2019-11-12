@@ -182,18 +182,9 @@ function load_scripts() {
   wp_enqueue_script( 'custom-script2', 'https://cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.9/jquery.transit.min.js', array() );
   wp_enqueue_script( 'tweenmax', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js', array() );
   wp_enqueue_script( 'timeline', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineLite.min.js');
-  wp_enqueue_script( 'owl', 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/owl.carousel.min.js');
-  wp_enqueue_script( 'owlcss', './js/owl.carousel.min.js');
-}
+  wp_enqueue_script( 'timelineMax', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js');
+ }
 add_action( 'wp_enqueue_scripts', 'load_scripts' );
-
-// LOAD CUSTOM SCRIPTS
-function load_styles() {
-  wp_enqueue_style( 'custom-styles', './js/owl.carousel.min.css' );
-}
-add_action( 'wp_enqueue_styles', 'load_styles' );
-
-
 
 
 // ENABLE UPLOADING OF SVG AND FONT TYPE FILES

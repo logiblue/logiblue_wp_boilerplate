@@ -1,7 +1,5 @@
+
 // SHRINK HEADER WHEN SCROLL
-
-
-
 jQuery(function(){
  var shrinkHeader = 300;
   jQuery(window).scroll(function() {
@@ -245,43 +243,60 @@ jQuery(".quickslider > img").hover(
 
 //OWL CAROUSEL HOMEPAGE
 
-
-jQuery('.owl-carousel').owlCarousel({
-  stagePadding: 200,
-  loop:true,
-  margin:10,
-  nav:false,
-  items:1,
-  lazyLoad: true,
-  nav:true,
-responsive:{
-      0:{
-          items:1,
-          stagePadding: 60
-      },
-      600:{
-          items:1,
-          stagePadding: 100
-      },
-      1000:{
-          items:1,
-          stagePadding: 200
-      },
-      1200:{
-          items:1,
-          stagePadding: 250
-      },
-      1400:{
-          items:1,
-          stagePadding: 300
-      },
-      1600:{
-          items:1,
-          stagePadding: 350
-      },
-      1800:{
-          items:1,
-          stagePadding: 400
-      }
-  }
+jQuery(document).ready(function(){
+    jQuery('.owl-carousel').owlCarousel({
+        stagePadding: 200,
+        loop:true,
+        margin:10,
+        nav:false,
+        items:1,
+        lazyLoad: true,
+        nav:true,
+      responsive:{
+            0:{
+                items:1,
+                stagePadding: 60
+            },
+            600:{
+                items:1,
+                stagePadding: 100
+            },
+            1000:{
+                items:1,
+                stagePadding: 200
+            },
+            1200:{
+                items:1,
+                stagePadding: 250
+            },
+            1400:{
+                items:1,
+                stagePadding: 300
+            },
+            1600:{
+                items:1,
+                stagePadding: 350
+            },
+            1800:{
+                items:1,
+                stagePadding: 400
+            }
+        }
+      })
 })
+
+
+
+var innerTit = document.getElementsByClassName('inner-tit');
+var innerCat = document.getElementsByClassName('inner-cat');
+var innerLeft = document.getElementsByClassName('inner-left');
+
+var currentActiveOwlSlide = document.getElementsByClassName('owl-item');
+
+if(currentActiveOwlSlide.classList.contains("active")){
+    alert('this worked')
+}
+// tl.from(innerCat, 0.75, { y: 30 }, "text");
+// tl.from(innerTit, 0.75, { y: -30 }, "text");
+// tl.from(innerLeft, 0.75,{x:-50},"text");
+// tl.to((innerCat,innerTit,innerLeft), 1, { opacity: 1 }, "+=3");

@@ -411,6 +411,7 @@ strong {
 .inner {
   position: relative;
   display: flex;
+  padding-top: 10px;
   flex-direction: row;
   justify-content: space-between;
   align-content: center;
@@ -424,6 +425,10 @@ strong {
       font-weight: bold; }
   .inner-right {
     text-align: right; }
+  .inner-tit {
+    color: #000;
+    font-weight: bold;
+    font-size: 20px; }
 
 .inner a {
   color: #000;
