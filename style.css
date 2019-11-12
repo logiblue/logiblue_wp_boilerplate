@@ -409,16 +409,25 @@ strong {
   -webkit-transform: translateZ(0) scale(1, 1); }
 
 .inner {
-  position: absolute;
-  bottom: 30px;
-  left: 0;
-  right: 0;
-  text-align: center; }
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center; }
+  .inner-left {
+    color: #000;
+    font-size: 17px;
+    position: relative; }
+    .inner-left span {
+      font-size: 40px;
+      font-weight: bold; }
+  .inner-right {
+    text-align: right; }
 
 .inner a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
   transition: .3s ease border-color; }
 
 .inner a:hover {

@@ -84,50 +84,74 @@
     <div class="item">
       <a href="#">
       <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/slider_bags.jpg" alt="" />
-      <div class="inner">
-        <a href="#">The Erling Bag</a>
-      </div>
       </a>
+      <div class="inner">
+        <div class="inner-left"><span>01</span>/07</div>
+        <div class="inner-right">
+            <div class="inner-tit">Istikbal Kimberland</div>
+            <div class="inner-cat">Online Shop/Ecommerce</div>
+        </div>
+      </div>
+  </div>
+    <div class="item black">
+      <a href="#">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/slider_book_cover.jpg" alt="" />
+        </a>
+        <div class="inner">
+        <div class="inner-left"><span>02</span>/07</div>
+        <div class="inner-right">
+            <div class="inner-tit">Istikbal Kimberland</div>
+            <div class="inner-cat">Online Shop/Ecommerce</div>
+        </div>
+      </div>
+    </div>
+      <div class="item">
+      <a href="#">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/slider_bags.jpg" alt="" />
+      </a>
+      <div class="inner">
+        <div class="inner-left"><span>03</span>/07</div>
+        <div class="inner-right">
+            <div class="inner-tit">Istikbal Kimberland</div>
+            <div class="inner-cat">Online Shop/Ecommerce</div>
+        </div>
+      </div>
   </div>
       <div class="item black">
       <a href="#">
       <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/slider_book_cover.jpg" alt="" />
-      <div class="inner">
-        <a href="#">Summer Book Series</a>
-      </div>
       </a>
+      <div class="inner">
+        <div class="inner-left"><span>04</span>/07</div>
+        <div class="inner-right">
+            <div class="inner-tit">Istikbal Kimberland</div>
+            <div class="inner-cat">Online Shop/Ecommerce</div>
+        </div>
+      </div>
   </div>
       <div class="item">
       <a href="#">
       <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/slider_bags.jpg" alt="" />
-      <div class="inner">
-        <a href="#">The Erling Bag</a>
-      </div>
       </a>
-  </div>
-      <div class="item black">
-      <a href="#">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/slider_book_cover.jpg" alt="" />
       <div class="inner">
-        <a href="#">Summer Book Series</a>
+        <div class="inner-left"><span>05</span>/07</div>
+        <div class="inner-right">
+            <div class="inner-tit">Istikbal Kimberland</div>
+            <div class="inner-cat">Online Shop/Ecommerce</div>
+        </div>
       </div>
-      </a>
-  </div>
-      <div class="item">
-      <a href="#">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/slider_bags.jpg" alt="" />
-      <div class="inner">
-        <a href="#">The Erling Bag</a>
-      </div>
-      </a>
   </div>
    <div class="item black">
       <a href="#">
       <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/slider_book_cover.jpg" alt="" />
-      <div class="inner">
-        <a href="#">Summer Book Series</a>
-      </div>
       </a>
+      <div class="inner">
+        <div class="inner-left"><span>06</span>/07</div>
+        <div class="inner-right">
+            <div class="inner-tit">Istikbal Kimberland</div>
+            <div class="inner-cat">Online Shop/Ecommerce</div>
+        </div>
+      </div>
   </div>
 </div>
 </section>
