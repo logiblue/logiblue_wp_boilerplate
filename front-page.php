@@ -7,6 +7,8 @@
 
 
 <?php get_header(); ?>
+<link rel="stylesheet" type="text/css" href="<?php echo bloginfo('template_url'); ?>/js/owl.carousel.min.css">
+<script type="text/javascript" src="<?php echo bloginfo('template_url'); ?>/js/owl.carousel.min.js"></script>
 
 <div class="hero">
     <h1>BLANK</h1>
