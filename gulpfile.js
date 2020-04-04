@@ -30,7 +30,7 @@ function reload() {
 
 function watch(){
     browserSync.init({
-        proxy: "localhost/artware"
+        proxy: "localhost/karanikolas"
     });
 
     gulp.watch(paths.styles.src, style)
