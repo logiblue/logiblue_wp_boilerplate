@@ -35,7 +35,9 @@
     -webkit-tap-highlight-color: transparent; }
   
   html {
-    box-sizing: border-box; }
+    box-sizing: border-box; 
+    margin-top: 0!important;;
+  }
   
   body {
     margin: 0;
@@ -58,7 +60,6 @@
     list-style-type: none; }
   
   div, p, strong, li, ul, a, span, h1, h2, h3, h4, h5, h6 {
-    font-family: var(--global-font);
     font-weight: 400; }
   
   strong {

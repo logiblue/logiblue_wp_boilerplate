@@ -44,7 +44,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.htm
   -webkit-tap-highlight-color: transparent; }
 
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin-top: 0 !important; }
 
 body {
   margin: 0;
@@ -67,15 +68,81 @@ ul {
   list-style-type: none; }
 
 div, p, strong, li, ul, a, span, h1, h2, h3, h4, h5, h6 {
-  font-family: var(--global-font);
   font-weight: 400; }
 
 strong {
   font-weight: bold; }
 
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/npm/inter-ui@3.12.1/Inter (web)/Inter-Light.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/npm/inter-ui@3.12.1/Inter (web)/Inter-Regular.woff") format("woff2"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/npm/inter-ui@3.12.1/Inter (web)/Inter-Medium.woff") format("woff2"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/npm/inter-ui@3.12.1/Inter (web)/Inter-Bold.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/npm/inter-ui@3.12.1/Inter (web)/Inter-ExtraBold.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/npm/inter-ui@3.12.1/Inter (web)/Inter-Black.woff2") format("woff2"); }
+
+:root {
+  --global-font:inter!important; }
+
+html {
+  font-family: var(--global-font) !important;
+  font-size: 62.5% !important;
+  font-weight: 400; }
+
+body {
+  font-size: 1.6rem !important; }
+
+h2 {
+  font-weight: 900;
+  font-size: 11rem;
+  margin: 0;
+  padding: 0; }
+
+h3 {
+  font-size: 3.5rem;
+  font-weight: 500; }
+
+p {
+  font-size: 1.7rem;
+  line-height: 2.5rem; }
+
 :root {
   --test-color:#e1890d;
-  --main-color: #13119d;
+  --main-color:#000;
   --header-height:100px;
   --links-hover:#333;
   --header-bg:#ffffff;
@@ -83,241 +150,65 @@ strong {
   --site-width:1400px;
   --global-font:Averta; }
 
-.header {
-  display: flex;
-  width: 100%;
-  align-items: center;
+.sitewise {
+  width: 80%;
+  margin: 0 auto; }
+
+.header-container {
+  width: 80%;
   margin: 0 auto;
-  padding: 20px;
-  border-bottom: 1px solid #eee; }
-  .header-logo {
-    width: 10%; }
-    .header-logo img {
-      height: 20px; }
-  .header-navigation {
-    width: 70%;
-    display: flex;
-    justify-content: center; }
-    .header-navigation nav ul {
-      display: flex; }
-      .header-navigation nav ul li:not(:first-child) {
-        margin-left: 30px; }
-  .header-lang {
-    display: flex;
-    justify-content: center;
-    width: 10%; }
-  .header-btn {
-    display: flex;
-    justify-content: center;
-    padding: 14px;
-    width: 10%;
-    border: 1px solid #000; }
-
-.delete-test-p {
-  padding: 0; }
-
-.hero {
-  width: 100%;
-  height: 70vh;
-  background-color: lightskyblue;
-  color: #fff;
   display: flex;
-  justify-content: center;
   align-items: center;
-  font-size: 50px; }
+  height: 100px;
+  border-bottom: 2px solid #000; }
 
-#awa {
-  width: 100%;
-  height: 50vh;
+.header-left {
+  width: 30%; }
+  .header-left h1 {
+    font-size: 22px;
+    font-weight: 600; }
+
+.header-right {
+  width: 80%; }
+
+.menu-main-container {
+  width: 40%;
+  float: right; }
+
+#menu-main {
   display: flex;
-  justify-content: center;
-  padding: 100px 0; }
-  #awa .awa {
-    width: 900px;
-    text-align: center; }
-    #awa .awa-top {
-      font-size: 20px; }
-    #awa .awa-main {
-      font-size: 55px; }
-    #awa .awa-text {
-      padding: 50px; }
-    #awa .awa-btn {
-      display: flex;
-      justify-content: center;
-      text-decoration: underline;
-      color: #000; }
-      #awa .awa-btn a {
-        color: #000;
-        font-size: 20px; }
-      #awa .awa-btn--1 {
-        padding: 20px 60px; }
-      #awa .awa-btn--2 {
-        padding: 20px 60px; }
+  justify-content: space-between; }
 
-#team .team-photo {
-  width: 100%;
-  height: 80vh;
-  background-image: url("http://localhost/artware/wp-content/uploads/2019/11/note_family_2018.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat; }
+.header-hero {
+  width: 80%; }
 
-#theserv {
-  width: 100%;
-  height: 60vh;
-  background: red;
-  position: relative; }
-  #theserv .theserv__list {
+.header-hero-greet {
+  margin-top: 10%; }
+  .header-hero-greet h3 {
+    width: 45%;
+    line-height: 1rem; }
+  .header-hero-greet p {
+    width: 45%;
+    line-height: 2.3rem; }
+
+.keep-scroll {
+  width: auto;
+  position: absolute;
+  bottom: 5%;
+  right: 10%; }
+
+@media (max-width: 1400px) {
+  .header-hero-greet {
+    margin-top: 6%; }
+    .header-hero-greet h3 {
+      width: 65%;
+      line-height: 1rem; }
+    .header-hero-greet p {
+      width: 60%;
+      line-height: 2.3rem; }
+  .keep-scroll {
+    width: auto;
     position: absolute;
-    top: 15%; }
-    #theserv .theserv__list-item a {
-      font-size: 54px; }
-
-#quickslider {
-  width: 100%;
-  position: relative;
-  height: 600px;
-  overflow: hidden;
-  overflow-x: hidden;
-  overflow-y: hidden; }
-
-.quickslider {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 600px; }
-
-.quickslider img {
-  display: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  transition: 1s ease-in-out; }
-
-.slider-nav {
-  position: absolute;
-  top: 20%;
-  left: 50px;
-  display: flex;
-  flex-direction: column; }
-
-.slider-nav a {
-  display: inline-block;
-  font-size: 35px;
-  color: #fff;
-  font-weight: bold; }
-  .slider-nav a:not(:first-child) {
-    padding-top: 20px; }
-  .slider-nav a.active {
-    text-decoration: underline; }
-
-#trusted {
-  width: 100%;
-  height: 620px;
-  display: flex;
-  justify-content: center;
-  background-color: #F9F9F9; }
-
-.trusted__container {
-  max-width: 1095px;
-  width: 100%; }
-
-.trusted__head {
-  font-size: 20px;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 70px 0; }
-
-.trusted__grid {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; }
-  .trusted__grid-item {
-    width: 20%;
-    height: 230px;
-    display: flex;
-    justify-content: center; }
-    .trusted__grid-item img {
-      height: 140px; }
-
-.item {
-  opacity: 0.4;
-  transition: .4s ease all;
-  margin: 0 20px;
-  transform: scale(0.8); }
-
-@media (max-width: 1000px) {
-  .item {
-    margin: 0;
-    transform: scale(0.9); } }
-
-.active .item {
-  opacity: 1;
-  transform: scale(1); }
-
-.owl-item {
-  -webkit-backface-visibility: hidden;
-  -webkit-transform: translateZ(0) scale(1, 1); }
-
-.inner {
-  position: relative;
-  display: flex;
-  padding-top: 10px;
-  flex-direction: row;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center; }
-  .inner-left {
-    color: #000;
-    font-size: 17px;
-    position: relative; }
-    .inner-left span {
-      font-size: 40px;
-      font-weight: bold; }
-  .inner-right {
-    text-align: right; }
-  .inner-tit {
-    color: #000;
-    font-weight: bold;
-    font-size: 20px; }
-
-.inner a {
-  color: #000;
-  text-decoration: none;
-  transition: .3s ease border-color; }
-
-.inner a:hover {
-  border-color: #fff; }
-
-.black .inner a {
-  color: #000;
-  border-color: rgba(0, 0, 0, 0.4); }
-
-.black .inner a:hover {
-  border-color: #000; }
-
-.owl-carousel:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 8%;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -4%;
-  pointer-events: none;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/aett_logo_slider.png) no-repeat center 50%;
-  background-size: 100% auto; }
-
-.owl-controls {
-  position: absolute;
-  margin-top: 300px; }
-
-.owl-nav {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  position: absolute;
-  top: 33%; }
+    bottom: 0; }
+    .keep-scroll p {
+      font-size: 1rem; } }
