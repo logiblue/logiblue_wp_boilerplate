@@ -2,11 +2,11 @@
 .header-left{
     width: 30%;
     & h1{
-        font-size: 22px;
-        font-weight: 600;
+        font-size: 2rem;
+        font-weight: 500;
     }
 }
 .header-right{width:80%;}
 
 .menu-main-container{width: 40%; float: right;}
-#menu-main{ display: flex; justify-content: space-between;}
+#menu-main{ display: flex; justify-content: space-around;}

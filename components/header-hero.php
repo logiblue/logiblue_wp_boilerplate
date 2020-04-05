@@ -7,5 +7,7 @@
 I’m currently part of Artware Digital agency and doing my side projects that’s been postponed for years. At the end, that’s not an another technical blog but just a corner to timeline my finding.thoughts and a pinch of knowledge. </p>
         <p><b>Part Dreamer.</b> - <b>Part Doer.</b></p>
     </div>
-    <div class="keep-scroll"><p>KEEP ON SCROLLING &darr;</p></div>
+
+    <?php get_template_part('components/soup-bar'); ?>
+
 </section>

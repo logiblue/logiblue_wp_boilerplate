@@ -41,23 +41,23 @@ function create_topics_hierarchical_taxonomy() {
 // REGISTER CUSTOM POST TYPE PORTFOLIO
 function custom_post_type() {
 	$labels = array(
-		'name'                => _x( 'Portfolios', 'Post Type General Name', 'artware' ),
-		'singular_name'       => _x( 'Portfolio', 'Post Type Singular Name', 'artware' ),
-		'menu_name'           => __( 'Portfolios', 'artware' ),
-		'parent_item_colon'   => __( 'Parent Portfolio', 'artware' ),
-		'all_items'           => __( 'All Portfolios', 'artware' ),
-		'view_item'           => __( 'View Portfolio', 'artware' ),
-		'add_new_item'        => __( 'Add New Portfolio', 'artware' ),
-		'add_new'             => __( 'Add New', 'artware' ),
-		'edit_item'           => __( 'Edit Portfolio', 'artware' ),
-		'update_item'         => __( 'Update Portfolio', 'artware' ),
-		'search_items'        => __( 'Search Portfolio', 'artware' ),
-		'not_found'           => __( 'Not Found', 'artware' ),
-		'not_found_in_trash'  => __( 'Not found in Trash', 'artware' ),
+		'name'                => _x( 'Portfolios', 'Post Type General Name', 'karanikolas' ),
+		'singular_name'       => _x( 'Portfolio', 'Post Type Singular Name', 'karanikolas' ),
+		'menu_name'           => __( 'Portfolios', 'karanikolas' ),
+		'parent_item_colon'   => __( 'Parent Portfolio', 'karanikolas' ),
+		'all_items'           => __( 'All Portfolios', 'karanikolas' ),
+		'view_item'           => __( 'View Portfolio', 'karanikolas' ),
+		'add_new_item'        => __( 'Add New Portfolio', 'karanikolas' ),
+		'add_new'             => __( 'Add New', 'karanikolas' ),
+		'edit_item'           => __( 'Edit Portfolio', 'karanikolas' ),
+		'update_item'         => __( 'Update Portfolio', 'karanikolas' ),
+		'search_items'        => __( 'Search Portfolio', 'karanikolas' ),
+		'not_found'           => __( 'Not Found', 'karanikolas' ),
+		'not_found_in_trash'  => __( 'Not found in Trash', 'karanikolas' ),
 	);
 	$args = array(
-		'label'               => __( 'portfolio', 'artware' ),
-		'description'         => __( 'Portfolio news and reviews', 'artware' ),
+		'label'               => __( 'portfolio', 'karanikolas' ),
+		'description'         => __( 'Portfolio news and reviews', 'karanikolas' ),
 		'labels'              => $labels,
 		'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', 'page-attributes' ),
 		'taxonomies'          => array( 'portfolio_category' ),
@@ -80,80 +80,6 @@ function custom_post_type() {
 add_action( 'init', 'custom_post_type', 0 );
 
 
-
-// REGISTER WIDGET AREAS
-add_action( 'widgets_init', 'act_widgets_init' );
-function act_widgets_init() {
-    register_sidebar( array(
-  'name' => __( 'Header Top 1', 'act_sidebar1' ),
-  'id' => 'sidebar-1',
-  'description' => __( 'Widgets in this area will be shown on header top left side.', 'act_sidebar1' ),
-  'before_widget' => '<li id="%1$s" class="widget %2$s">',
-	'after_widget'  => '</li>',
-	'before_title'  => '<h2 class="widgettitle">',
-	'after_title'   => '</h2>',
-    ) );
-
-	register_sidebar( array(
-  'name' => __( 'Header Top 2', 'act_sidebar2' ),
-  'id' => 'sidebar-2',
-  'description' => __( 'Widgets in this area will be shown on header top right side.', 'act_sidebar2' ),
-  'before_widget' => '<li id="%1$s" class="widget %2$s">',
-	'after_widget'  => '</li>',
-	'before_title'  => '<h2 class="widgettitle">',
-	'after_title'   => '</h2>',
-    ) );
-
-	register_sidebar( array(
-  'name' => __( 'Footer 1', 'act_sidebar3' ),
-  'id' => 'sidebar-3',
-  'description' => __( 'Widgets in this area will be shown on footer.', 'act_sidebar3' ),
-  'before_widget' => '<li id="%1$s" class="widget %2$s">',
-	'after_widget'  => '</li>',
-	'before_title'  => '<h2 class="widgettitle">',
-	'after_title'   => '</h2>',
-    ) );
-
-	register_sidebar( array(
-  'name' => __( 'Footer 2', 'act_sidebar4' ),
-  'id' => 'sidebar-4',
-  'description' => __( 'Widgets in this area will be shown on footer.', 'act_sidebar4' ),
-  'before_widget' => '<li id="%1$s" class="widget %2$s">',
-	'after_widget'  => '</li>',
-	'before_title'  => '<h2 class="widgettitle">',
-	'after_title'   => '</h2>',
-    ) );
-
-	register_sidebar( array(
-  'name' => __( 'Footer 3', 'act_sidebar5' ),
-  'id' => 'sidebar-5',
-  'description' => __( 'Widgets in this area will be shown on footer.', 'act_sidebar5' ),
-  'before_widget' => '<li id="%1$s" class="widget %2$s">',
-	'after_widget'  => '</li>',
-	'before_title'  => '<h2 class="widgettitle">',
-	'after_title'   => '</h2>',
-    ) );
-
-	register_sidebar( array(
-  'name' => __( 'Footer 4', 'act_sidebar6' ),
-  'id' => 'sidebar-6',
-  'description' => __( 'Widgets in this area will be shown on footer.', 'act_sidebar6' ),
-  'before_widget' => '<li id="%1$s" class="widget %2$s">',
-	'after_widget'  => '</li>',
-	'before_title'  => '<h2 class="widgettitle">',
-	'after_title'   => '</h2>',
-    ) );
-
-	register_sidebar( array(
-  'name' => __( 'Header Bottom', 'act_sidebar7' ),
-  'id' => 'sidebar-7',
-  'description' => __( 'Widgets in this area will be shown on footer.', 'act_sidebar7' ),
-  'before_widget' => '<li id="%1$s" class="widget %2$s">',
-	'after_widget'  => '</li>',
-	'before_title'  => '<h2 class="widgettitle">',
-	'after_title'   => '</h2>',
-    ) );
-}
 
 
 
@@ -265,30 +191,6 @@ if ( class_exists( 'Vc_Manager' ) ) {
  add_action('init', 'myoverride', 100);
 }
 
-
-
-// DISABLE VISUAL COMPOSER - PRETTYPHOTO
-function remove_vc_prettyphoto(){
- wp_dequeue_script( 'prettyphoto' );
- wp_deregister_script( 'prettyphoto' );
- wp_dequeue_style( 'prettyphoto' );
- wp_deregister_style( 'prettyphoto' );
-}
-add_action( 'wp_enqueue_scripts', 'remove_vc_prettyphoto', 9999 );
-
-
-
-// DISABLE VC UPDATE NAG
-setcookie('vchideactivationmsg', '1', strtotime('+3 years'), '/');
-setcookie('vchideactivationmsg_vc11', (defined('WPB_VC_VERSION') ? WPB_VC_VERSION : '1'), strtotime('+3 years'), '/');
-
-
-
-// DISABLE SEO YOAST NAG
-function remove_yoast_license_nag_from_admin_page() {
-    echo '<style>div.yoast-notice {display: none;}</style>';
-}
-add_action('admin_head', 'remove_yoast_license_nag_from_admin_page');
 
 
 
