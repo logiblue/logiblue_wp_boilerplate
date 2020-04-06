@@ -2,7 +2,7 @@
 
 <div class="homepage-portfolio-top">
     <h2>Selected Projects</h2>
-    <h3>A round of my favorite projects</h3>
+    <h3>A round of Non-confidential and loved ones 😂</h3>
 </div>
 <div class="homepage-portfolio-bottom">
     

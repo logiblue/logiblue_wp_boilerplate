@@ -288,7 +288,7 @@ p {
       flex-direction: column;
       padding-bottom: 3rem; }
       .homepage-blog-right ul li a {
-        font-size: 2.4rem;
+        font-size: 2.5rem;
         font-weight: 600; }
 
 .homepage-portfolio {
@@ -302,6 +302,7 @@ p {
 
 .portitems {
   width: 100%;
+  counter-reset: section;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -309,8 +310,10 @@ p {
 
 .hpport {
   width: 46%;
+  position: relative;
   margin-bottom: 10rem;
-  border: 2px solid #000; }
+  border: 2px solid #000;
+  mix-blend-mode: difference; }
   .hpport-tit {
     border-bottom: 2px solid #000;
     font-size: 3rem;
@@ -331,3 +334,15 @@ p {
     padding: 2rem 2rem;
     font-weight: 600;
     color: #000; }
+  .hpport::before {
+    counter-increment: section;
+    content: counters(section, ".", decimal-leading-zero);
+    font-size: 9rem;
+    padding: 2rem;
+    border: 2px solid #000;
+    font-weight: 900;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    position: absolute;
+    top: -50px;
+    left: -70px; }
