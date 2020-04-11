@@ -1,0 +1,105 @@
+.blog{
+    margin-top: 10rem;;
+    h2{padding-bottom: 2rem;}
+    p{margin-bottom: 10rem; width: 25%;}
+  
+    & p{margin-bottom: 3rem;;}
+}
+
+.filter-resullts-area.top {
+}
+
+
+.filter-section{
+    margin-top: 3rem;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.filter-resullts-area .filter-section li.region-name {
+    list-style: none;
+    display: inline-block;
+    height: 50px;
+    line-height: 30px;
+    padding: 10px;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+    position: relative;
+}
+.filter-resullts-area .filter-section li.region-name.active, .filter-resullts-area .filter-section li.region-name:hover {
+    background: #fff!important;
+    box-shadow: inset 0px 0px 0px 2px #000!important;   
+    color: #fff!important;
+    background-color: #000!important;
+}
+.filter-resullts-area .filter-section li.region-name {
+    list-style: none;
+    display: inline-block;
+    height: 50px;
+    line-height: 30px;
+    padding: 10px;
+    border:none!important;
+    vertical-align: middle;
+    margin: 5px;
+    box-shadow:none!important;
+    cursor: pointer;
+    position: relative;
+}
+.filter-resullts-area .filter-section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    width: 60%;
+}
+
+.region-name{margin:0!important;}
+.filter-resullts-area .filter-section li.region-name.active:after {
+    content: '';
+    display: none!important;
+}
+.filtered-content-section .region-vendor.active {
+    display: block;
+    display: flex!important;
+    flex-direction: column!important;
+    width: 100%!important;
+    min-height: 65vh!important;
+}
+.filtered-content-section .vendor {
+    width: calc((100% / 3.05) - 14px);
+    display: inline-block;
+    margin: 7px;
+    border: none!important;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.filtered-content-section .vendor h4 {
+    font-size: 2.4rem!important;
+    line-height: 2.4rem!important;
+    letter-spacing: 0;
+    color: #000!important;
+    font-weight: normal;
+    padding-bottom: 0!important;
+    margin-bottom: 1.3rem!important;
+    font-weight: 500!important;
+}
+.filtered-content-section .vendor .other-details {
+    padding: 0!important;
+}
+.filtered-content-section .vendor {
+    width: 100%!important;
+}
+.uncategorized {display: none!important}
+.all-posts{order:1!important;}
+.wordpress{order:4;}
+.react{order:2;}
+.workflow{order:5;}
+.javascript{order:3;}
+.inspiration{order:6;}
+
+
+.filtered-content-section .region-vendor.active {
+    margin-bottom: 3rem;
+}

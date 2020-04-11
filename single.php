@@ -2,29 +2,24 @@
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 <article>
-	<div id="main-content">
+	<div id="single-post" class="single-post-content">
+		<div class="single-post-content-date"><?php the_date('F j Y'); ?></div>
+		<div class="single-post-content-image"><?php the_post_thumbnail('full'); ?></div>
 
-		<div class="single-img"><?php the_post_thumbnail('full'); ?></div>
-		<div class="single-tit"><?php the_title(); ?></div>
-		<div class="single-dat"><?php the_date('j F Y'); ?></div>
-		<div class="single-txt"><?php the_content(); ?></div>
-		<div class="single-bar"></div>
-
-		<?php if ( get_next_post_link() ) { ?>
-			<div class="single-prev">
-				<div class="single-prev-inner">
-					<?php next_post_link( '%link', 'Προηγούμενο άρθρο', TRUE ); ?>
-				</div>
-			</div>
-		<?php } ?>
-
-		<?php if ( get_previous_post_link() ) { ?>
-			<div class="single-next">
-				<div class="single-next-inner">
-					<?php previous_post_link( '%link', 'Επόμενο άρθρο', TRUE ); ?>
-				</div>
-			</div>
-		<?php } ?>
+		<div class="single-post-content-title"><?php the_title(); ?></div>
+		<div class="single-post-content-cats">
+		
+			
+		<?php
+			$categories = get_the_category();
+			foreach ( $categories as $category ) { 
+				echo '<span class="post-cats">' . esc_attr( $category->name ) . '</span>'; 
+			}
+		?>
+		
+	</div>
+		<div class="single-post-content-article"><?php the_content(); ?></div>
+		<?php get_template_part('components/single-post-nav'); ?>
 
 		<div class="clr"></div>
 

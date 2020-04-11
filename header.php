@@ -27,8 +27,22 @@
 
 
 <header>
+	<div class="nh">
+
+	<div class="nh-lef">
+		<div class="nh-logo">
+			<span class="nh-logo-big">K</span>
+			<span class="nh-logo-small">K</span>
+		</div>
+	</div>
+	<div class="nh-rig">
+		<h3>Konstantinos Karanikolas</h3>
+		<p class="nh-rig-txt">
+		I enjoy working with web. Building things that works and looks is my passion. I’m currently part of the Artware Digital agency and on the afternoon I'm doing my side projects that’s been postponed for years. In coclusion, that’s not an another technical blog but just a corner that timeline's my findings and thoughts.or just sharing my pinch of knowledge.</p>
+	</div>
+</div>
 <div class="header-container">
-	<div class="header-left"><a href="/"> <h1>Karanikolas Konstantinos</h1></a></div>
+	<div class="header-left">&rarr;</div>
 	<div class="header-right">
 		<?php wp_nav_menu(); ?>
 	</div>

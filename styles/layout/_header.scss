@@ -10,3 +10,30 @@
 
 .menu-main-container{width: 40%; float: right;}
 #menu-main{ display: flex; justify-content: space-around;}
+
+
+
+
+.nh{
+    width: 80%;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    &-lef{
+        width:50%;
+    }
+    &-rig{
+        width: 50%;
+        &-txt{
+            font-size: 2rem;
+            line-height: 3.3rem;
+            font-weight: 300;
+        }
+    }
+    &-logo{
+        display: flex;
+        align-items: baseline;
+        &-big{font-size: 30rem; font-weight: 700; }
+        &-small{font-size:30rem; font-weight: bold; }
+    }
+}

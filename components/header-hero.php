@@ -8,6 +8,7 @@ Iâ€™m currently part of Artware Digital agency and doing my side projects thatâ€
         <p><b>Part Dreamer.</b> - <b>Part Doer.</b></p>
     </div>
 
+
     <?php get_template_part('components/soup-bar'); ?>
 
 </section>

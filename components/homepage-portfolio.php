@@ -12,7 +12,7 @@
  
     $myposts = get_posts( array(
         'post_type'=> 'portfolio',
-        'posts_per_page' => 6
+        'posts_per_page' => 4
     ) );
  
     if ( $myposts ) {
@@ -35,6 +35,5 @@
     }
     ?>
 </ul>
-
 </div>
 </section>
