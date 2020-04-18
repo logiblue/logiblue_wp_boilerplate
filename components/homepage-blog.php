@@ -2,7 +2,7 @@
 
 <div class="homepage-blog-left">
     <h2>Some Thoughts</h2>
-    <a href="#">Read More &rarr;</a>
+    <a href="#">Read More</a>
 </div>
 <div class="homepage-blog-right">
     

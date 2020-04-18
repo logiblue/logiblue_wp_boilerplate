@@ -1,0 +1,43 @@
+.about{
+    width:100%;
+    background-color: #000;
+    &__top{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        background-color: #000;
+        & span{
+            content: 'test';
+            font-size: 11rem;
+            color: #fff;
+            font-weight: 900;
+            position: absolute;
+            transform:  rotate(-90deg);
+            bottom: 35%;
+            left:17%;
+        }
+    }
+    &_bottom{
+        width: $desktop-width;
+        margin: $mmm;
+
+    }
+    .pdf{
+        &_detail{
+            font-weight: 700;
+            text-decoration: underline;
+        }
+        & p{ width: 60%;}
+        &_position-date span{font-weight: 700;}
+        &_position-role span{font-weight: 700; margin-bottom: 2rem;}
+        &_position-ach{}
+        .ach-list{
+            padding:0;
+            &-item{
+                margin: 1rem 0;
+                &::before{content: "#";}
+            }
+        }
+    }
+    
+}

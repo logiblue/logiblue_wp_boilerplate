@@ -82,6 +82,7 @@ add_action( 'init', 'custom_post_type', 0 );
 
 
 
+// Register Position Custom Post Type
 
 // HIDE ITEMS FROM ADMIN TOOLBAR
 function remove_from_admin_bar($wp_admin_bar) {

@@ -1,64 +1,13 @@
 
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url("https://cdn.jsdelivr.net/npm/inter-ui@3.12.1/Inter (web)/Inter-Light.woff2") format("woff2");
-
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://cdn.jsdelivr.net/npm/inter-ui@3.12.1/Inter (web)/Inter-Regular.woff") format("woff2");
-
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url("https://cdn.jsdelivr.net/npm/inter-ui@3.12.1/Inter (web)/Inter-Medium.woff") format("woff2");
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url("https://cdn.jsdelivr.net/npm/inter-ui@3.12.1/Inter (web)/Inter-Bold.woff2") format("woff2");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  italic;
-  font-weight: 800;
-  font-display: swap;
-  src: url("https://cdn.jsdelivr.net/npm/inter-ui@3.12.1/Inter (web)/Inter-ExtraBold.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url("https://cdn.jsdelivr.net/npm/inter-ui@3.12.1/Inter (web)/Inter-Black.woff2") format("woff2");
-}
-
-
-:root{ --global-font:inter!important;}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800;900&display=swap');
 
 html {
-  font-family: var(--global-font)!important;
+  font-family: 'Inter', sans-serif!important;
   font-size: 62.5%!important;
   font-weight: 400;
 }
 
 body { font-size: 1.6rem!important;}
-
-
 
 h2{
   font-weight: 900;
@@ -66,8 +15,12 @@ h2{
   margin: 0;
   padding: 0;
 }
+bold{font-weight: 900;}
 h3{
   font-size: 3.5rem;
   font-weight: 500;
 }
-p{font-size: 1.7rem; line-height: 2.5rem;;}
+p{
+  font-size: 1.9rem; 
+  line-height: 2.5rem;
+}

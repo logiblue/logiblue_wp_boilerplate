@@ -1,3 +1,4 @@
+<?php get_header(); ?>
 <section class="homepage-portfolio">
 
 <div class="homepage-portfolio-top">
@@ -30,3 +31,4 @@
 </ul>
 </div>
 </section>
+<?php get_footer(); ?>

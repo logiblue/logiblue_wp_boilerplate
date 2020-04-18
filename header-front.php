@@ -27,17 +27,22 @@
 
 
 <header>
+	<div class="nh">
 
-<div class="header-container">
-	<div class="header-left">
-		<a href= "<?php bloginfo('url'); ?>">
-		<svg width="334" height="208" viewBox="0 0 334 208" fill="none" xmlns="http://www.w3.org/2000/svg">
-		<ellipse cx="105.5" cy="104" rx="105.5" ry="104" fill="white"/>
-		<ellipse cx="105.5" cy="104" rx="50.5" ry="49" fill="black"/>
-		<ellipse cx="283.5" cy="104" rx="50.5" ry="49" fill="white"/>
-		</svg>
-		</a>
+	<div class="nh-lef">
+		<div class="nh-logo">
+			<span class="nh-logo-big">K</span>
+			<span class="nh-logo-small">K</span>
+		</div>
 	</div>
+	<div class="nh-rig">
+		<h3>Konstantinos Karanikolas</h3>
+		<p class="nh-rig-txt">
+		I enjoy working with web. Building things that works and looks is my passion. I’m currently part of the Artware Digital agency and on the afternoon I'm doing my side projects that’s been postponed for years. In coclusion, that’s not an another technical blog but just a corner that timeline's my findings and thoughts.or just sharing my pinch of knowledge.</p>
+	</div>
+</div>
+<div class="header-container">
+	<div class="header-left">&rarr;</div>
 	<div class="header-right">
 		<?php wp_nav_menu(); ?>
 	</div>
