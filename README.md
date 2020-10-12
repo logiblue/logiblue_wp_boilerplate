@@ -1,6 +1,6 @@
-# Artware Custom WordPress Theme
+# Boilerplate WordPress Theme
 
-This is a wordpress theme develop for in-house project developed by artware dev team.
+This is a skeleton for starting projects based on my own workflow.
 
 ## Installation
 
