@@ -27,20 +27,5 @@
 
 
 <header>
-
-<div class="header-container">
-	<div class="header-left">
-		<a href= "<?php bloginfo('url'); ?>">
-		<svg width="334" height="208" viewBox="0 0 334 208" fill="none" xmlns="http://www.w3.org/2000/svg">
-		<ellipse cx="105.5" cy="104" rx="105.5" ry="104" fill="white"/>
-		<ellipse cx="105.5" cy="104" rx="50.5" ry="49" fill="black"/>
-		<ellipse cx="283.5" cy="104" rx="50.5" ry="49" fill="white"/>
-		</svg>
-		</a>
-	</div>
-	<div class="header-right">
 		<?php wp_nav_menu(); ?>
-	</div>
-</div>
-
 </header>
