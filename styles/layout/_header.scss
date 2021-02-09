@@ -1,0 +1,35 @@
+#wpadminbar{bottom:0!important; top:unset!important;}
+
+#hero{
+    background-color: $green;
+    max-height: 100vh;
+    height: 100vh;
+}
+header{
+    width: $wide;
+    margin: 0 auto;   
+}
+.header{
+    border-bottom: 1px solid $crem;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.header__container{
+    width: 100%;
+    display:flex;
+    color: $crem;
+
+}
+.header__logo{
+    font-size: 2.5rem;
+    text-transform:uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.header__container-left{
+    width: 50%;
+}
+.header__container-right{
+    text-align: right;
+    width: 50%;;
+}

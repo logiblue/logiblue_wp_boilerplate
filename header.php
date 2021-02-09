@@ -25,7 +25,16 @@
 
 <body <?php body_class(); ?>>
 
-
+<section id="hero">
 <header>
-		<?php wp_nav_menu(); ?>
+	<section class="header">
+		<div class="header__container">
+		<div class="header__container-left">
+			<span class="header__logo">Kostis</span>
+		</div>
+		<div class="header__container-right">Menu</div>
+		</div>
+	</section>
 </header>
+</section>
+
